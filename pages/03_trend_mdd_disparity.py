@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import date, timedelta
 import streamlit as st
-from utils.finance_library import MDD, calculate_volatility  # finance_library 모듈에서 MDD,calculate_volatility 함수를 불러옵니다.
+from lib.finance_library import MDD, calculate_volatility  # finance_library 모듈에서 MDD,calculate_volatility 함수를 불러옵니다.
 
 # 페이지 설정
 st.set_page_config(layout="wide")
